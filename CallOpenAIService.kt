@@ -34,7 +34,7 @@ class CallOpenAIService : Service() {
             try {
                 httpURLConnection.requestMethod = "POST"
                 httpURLConnection.setRequestProperty("Content-Type", "application/json; charset=UTF-8")
-                httpURLConnection.setRequestProperty("Authorization", "Bearer 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")
+                httpURLConnection.setRequestProperty("Authorization", "Bearer XXXX")
                 httpURLConnection.doOutput = true
                 httpURLConnection.doInput = true
 
